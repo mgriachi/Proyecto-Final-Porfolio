@@ -275,3 +275,12 @@ footer p{
         text-align: center;
     }
 }
+
+@media (min-width: 1px) {
+   .Proyectos{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: column;
+   }
+}
