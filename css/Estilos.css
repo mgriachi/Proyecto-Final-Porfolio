@@ -44,6 +44,7 @@ body {
 
 .avatarIndex{
     border-radius: 50%;
+    margin-bottom: 50px;
     
 }
 
@@ -277,6 +278,9 @@ footer p{
 
 }
 
+.avatarIndex:hover{
+   transform: scale(110%);
+}
 
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
@@ -397,4 +401,9 @@ footer p{
     margin-left: 0px;
 }
 
+.avatarIndex {
+    width: 200px;
+    margin-bottom: 50px;
+
+}
 }
