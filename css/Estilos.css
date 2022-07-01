@@ -17,26 +17,35 @@ body {
 
 }
 
+.posicion{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
 .bienvenida h1{
     color: #f3f3f3;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-top: 350px;
+     text-align: center;
 }
 
 .BotonConoceme{
     padding: 10px ;
-    border-radius: 10px;
-    margin-top: 26px;
-    margin-left: 650px;
-    color: #3f3f3f;
+  border-radius: 10px;
 }
 .BotonConoceme a{
     text-decoration: none;
     color: #3f3f3f;
 }
 
+.avatarIndex{
+    border-radius: 50%;
+    
+}
 
 /*===================MENU==========================*/
 
@@ -304,21 +313,22 @@ footer p{
     .bienvenida h1{
         color: #f3f3f3;
         display: flex;
-        justify-content: center;
-        text-align: center;
-        padding-top: 230px;
+      
     }
     
     .BotonConoceme{
         padding: 10px ;
         border-radius: 10px;
-        margin-top: 26px;
-        margin-left: 90px;
         color: #3f3f3f;
     }
     .BotonConoceme a{
         text-decoration: none;
         color: #3f3f3f;
+    }
+
+    .avatarIndex{
+       width: 200px;
+        
     }
     
 }
