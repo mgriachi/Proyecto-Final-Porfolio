@@ -130,6 +130,14 @@ body {
 .Conocimientos{
     margin: 30px;
 }
+.tituloConocimientos {
+    margin-bottom: 84px;
+    border: 2px solid;
+    width: 288px;
+}
+.card {
+    border:0px;
+}
 
 .imgAdobe{
     padding-right:60px;
@@ -152,6 +160,7 @@ body {
     min-height:500px;
     position:relative;
 }
+
 
 /*=========================Proyectos================================*/
 .Proyectos {
@@ -193,7 +202,11 @@ body {
   .imgCartoon{
     border-radius: 50%;
   }
-
+  .Curriculum{
+    border:solid 1px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
 /*=========================CONTACTOS FORMULARIO================================*/
 .Espaciosection{
     height: 80vh;
@@ -247,6 +260,14 @@ footer p{
     transform: scale(110%);
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.085);
 }
+
+.Curriculum:hover{
+    background-color: rgba(111, 168, 111, 0.296);
+    transform: scale(120%);
+
+}
+
+
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
@@ -357,6 +378,13 @@ footer p{
 .Proyectos .cartProyectos .TextoProyectos p {
    font-size: 15px;
     
+}
+
+.Curriculum{
+    border:solid 1px ;
+    width: 150px;
+    padding: 10px 0px 10px 10px;
+    margin-left: 0px;
 }
 
 }
