@@ -242,6 +242,11 @@ footer p{
     text-decoration: none;
     color: #ffffff;
 }
+
+.Proyectos .cartProyectos:hover {
+    transform: scale(110%);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.085);
+}
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
@@ -331,6 +336,27 @@ footer p{
         
     }
     
+    .Proyectos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Proyectos .cartProyectos {
+    background-color: aliceblue;
+    width: 100%;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
 }
 
+.Proyectos .cartProyectos .FotoProyecto img {
+    width: 150px;
 
+}
+
+.Proyectos .cartProyectos .TextoProyectos p {
+   font-size: 15px;
+    
+}
+
+}
