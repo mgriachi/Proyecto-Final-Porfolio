@@ -17,12 +17,24 @@ body {
 
 }
 
-.BotonConoceme{
-   
-    position: absolute;
-    top: 500px;
-    left: 650px;
+.bienvenida h1{
+    color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 350px;
+}
 
+.BotonConoceme{
+    padding: 10px ;
+    border-radius: 10px;
+    margin-top: 26px;
+    margin-left: 650px;
+    color: #3f3f3f;
+}
+.BotonConoceme a{
+    text-decoration: none;
+    color: #3f3f3f;
 }
 
 
@@ -207,6 +219,20 @@ footer p{
     color:#f3f3f3;
 }
 
+/*=========================animaciones================================*/
+
+.FotoProyecto:hover{
+    transform: scale(120%);
+}
+
+.BotonConoceme:hover{
+    background-color: palevioletred;
+    transform: scale(120%);
+}
+.BotonConoceme a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
@@ -274,13 +300,27 @@ footer p{
         justify-content: center !important;
         text-align: center;
     }
+
+    .bienvenida h1{
+        color: #f3f3f3;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 230px;
+    }
+    
+    .BotonConoceme{
+        padding: 10px ;
+        border-radius: 10px;
+        margin-top: 26px;
+        margin-left: 90px;
+        color: #3f3f3f;
+    }
+    .BotonConoceme a{
+        text-decoration: none;
+        color: #3f3f3f;
+    }
+    
 }
 
-@media (min-width: 1px) {
-   .Proyectos{
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-    flex-direction: column;
-   }
-}
+
