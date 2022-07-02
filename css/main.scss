@@ -14,9 +14,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-
-}
-
 .posicion{
     display: flex;
     display: flex;
@@ -26,20 +23,18 @@ body {
     align-items: center;
     padding-top: 50px;
 }
-
-.bienvenida h1{
+ h1{
     color: #f3f3f3;
     display: flex;
      text-align: center;
 }
-
 .BotonConoceme{
     padding: 10px ;
   border-radius: 10px;
-}
-.BotonConoceme a{
+  a{
     text-decoration: none;
     color: #3f3f3f;
+}
 }
 
 .avatarIndex{
@@ -48,28 +43,27 @@ body {
     
 }
 
+}
+
 /*===================MENU==========================*/
 
 .Micolor{
         background-color: #794363!important;
-       
-}
-.Micolor a{
-    text-decoration: none;
-   
-}
-
-
- #menu a, button{
-     font-size: 18px !important;
-     font-weight: 600;
-    
- }
-
- #menu a{
+        a{
+            text-decoration: none;
+            button{
+                font-size: 18px !important;
+                font-weight: 600;
+               
+            }
+           
+        }   
+        #menu a,
+        #menu a{
      color:#3f3f3f;
      
  }
+}
 /*===================SLIDER DE IMAGENES==========================*/
 
 .carousel-inner {
@@ -94,10 +88,7 @@ body {
     justify-content: center; 
     padding-bottom: 300px; 
 
-    
-}
-
-.mapa {
+    .mapa {
     margin: 20px;
     width:100%;
     height:500px;
@@ -114,33 +105,40 @@ body {
 }
 
 
+}
+
+
+
 /*===========================SECCION EQUIPO ==================================*/
 #numeros-local{
     margin:0 !important;
     padding:0 !important;
+    div {
+        padding: 0 20px 0 0;   
+        text-align:left;
+        height:48px;
+    }
 }
 #numeros-local div {
     padding: 0 20px 0 0;   
     text-align:left;
     height:48px;
-}
-
-#numeros-local div:not(:last-child) {
-    border-right: 2px solid #3f3f3f;
-  }
-#numeros-local div:not(:first-child) {
-    padding-left:20px;
-  }
-
-#numeros-local p{
+    div:not(:last-child) {
+        border-right: 2px solid #3f3f3f;
+      }
+      div:not(:first-child) {
+        padding-left:20px;
+      }
+       p{
     margin:0;
 }
+}
+
 
 
 /*===========================Conocimientos ==================================*/
 .Conocimientos{
     margin: 30px;
-}
 .tituloConocimientos {
     margin-bottom: 84px;
     border: 2px solid;
@@ -149,14 +147,13 @@ body {
 .card {
     border:0px;
 }
-
 .imgAdobe{
     padding-right:60px;
 }
-
-
 .Espacionbajo{
     margin-bottom: 20px;
+}
+
 }
 
 /*=========================CONTACTOS BACKGROUND================================*/
@@ -178,46 +175,47 @@ body {
     display: flex;
     text-decoration: none;
     list-style:none;
-  }
-
-  .Proyectos a{
+    a{
     text-decoration: none;
     list-style:none;
   }
-
-.Proyectos .cartProyectos {
+  .cartProyectos {
     background-color: aliceblue;
     width: 300px;
     height: 450px;
     margin: 20px;
     border-radius: 10px;
+    .TextoProyectos {
+        color: black;
+        h5 {
+            font-size: 30px;
+            padding: 10px;
+          }
+          p {
+            margin: 5px;
+            padding-left: 10px;
+            font-size: 17px;
+          }
+      }
+      .FotoProyecto{
+        img {
+        width: 179px;
+        margin: 50px;
+        padding-left: 6px;
+      }
+    } 
   }
-.Proyectos .cartProyectos .TextoProyectos {
-    color: black;
-  }
- .Proyectos .cartProyectos .TextoProyectos h5 {
-    font-size: 30px;
-    padding: 10px;
-  }
- .Proyectos .cartProyectos .TextoProyectos p {
-    margin: 5px;
-    padding-left: 10px;
-    font-size: 17px;
-  }
-.Proyectos .cartProyectos .FotoProyecto img {
-    width: 179px;
-    margin: 50px;
-    padding-left: 6px;
-  }
-
   .imgCartoon{
     border-radius: 50%;
   }
-  .Curriculum{
+  
+}
+
+.Curriculum{
     border:solid 1px;
     margin-left: 300px;
     border-radius: 10px;
-}
+  }
 /*=========================CONTACTOS FORMULARIO================================*/
 .Espaciosection{
     height: 80vh;
@@ -241,16 +239,18 @@ body {
 footer {
     background-color: #794363;
     min-height: 100px;;
+    p{
+        color:#f3f3f3;
+        text-align:center;
+    }
+    #iconos  i {
+        font-size: 26px;
+        padding: 0 8px;
+        color:#f3f3f3;
+    }
 }
-footer p{
-    color:#f3f3f3;
-    text-align:center;
-}
-#iconos  i {
-    font-size: 26px;
-    padding: 0 8px;
-    color:#f3f3f3;
-}
+
+
 
 /*=========================animaciones================================*/
 

@@ -1,0 +1,403 @@
+/*===============Propiedades Globales================*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+/*===================Pagina de bienvenida ==========================*/
+.bienvenida {
+  background-image: url(../img/index.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.bienvenida .posicion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+.bienvenida h1 {
+  color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+.bienvenida .BotonConoceme {
+  padding: 10px;
+  border-radius: 10px;
+}
+.bienvenida .BotonConoceme a {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+.bienvenida .avatarIndex {
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+/*===================MENU==========================*/
+.Micolor {
+  background-color: #794363 !important;
+}
+.Micolor a {
+  text-decoration: none;
+}
+.Micolor a button {
+  font-size: 18px !important;
+  font-weight: 600;
+}
+.Micolor #menu a,
+.Micolor #menu a {
+  color: #3f3f3f;
+}
+
+/*===================SLIDER DE IMAGENES==========================*/
+.carousel-inner {
+  max-height: 39rem !important;
+}
+
+/*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
+#img-equipo {
+  max-height: 30rem !important;
+  width: 50%;
+}
+
+/*===================SECCION NUESTRO EQUIPO MAPA==========================*/
+#local {
+  margin-top: 40px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 300px;
+}
+#local .mapa {
+  margin: 20px;
+  width: 100%;
+  height: 500px;
+}
+#local .img-equipo {
+  margin-bottom: 30px;
+}
+#local .wrapper-local {
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 150px;
+}
+
+/*===========================SECCION EQUIPO ==================================*/
+#numeros-local {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#numeros-local div {
+  padding: 0 20px 0 0;
+  text-align: left;
+  height: 48px;
+}
+
+#numeros-local div {
+  padding: 0 20px 0 0;
+  text-align: left;
+  height: 48px;
+}
+#numeros-local div div:not(:last-child) {
+  border-right: 2px solid #3f3f3f;
+}
+#numeros-local div div:not(:first-child) {
+  padding-left: 20px;
+}
+#numeros-local div p {
+  margin: 0;
+}
+
+/*===========================Conocimientos ==================================*/
+.Conocimientos {
+  margin: 30px;
+}
+.Conocimientos .tituloConocimientos {
+  margin-bottom: 84px;
+  border: 2px solid;
+  width: 288px;
+}
+.Conocimientos .card {
+  border: 0px;
+}
+.Conocimientos .imgAdobe {
+  padding-right: 60px;
+}
+.Conocimientos .Espacionbajo {
+  margin-bottom: 20px;
+}
+
+/*=========================CONTACTOS BACKGROUND================================*/
+#bg-contactos {
+  position: relative;
+  top: -130px;
+}
+
+#seccion-contacto {
+  background-color: #1b2a4e;
+  min-height: 500px;
+  position: relative;
+}
+
+/*=========================Proyectos================================*/
+.Proyectos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.Proyectos a {
+  text-decoration: none;
+  list-style: none;
+}
+.Proyectos .cartProyectos {
+  background-color: aliceblue;
+  width: 300px;
+  height: 450px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.Proyectos .cartProyectos .TextoProyectos {
+  color: black;
+}
+.Proyectos .cartProyectos .TextoProyectos h5 {
+  font-size: 30px;
+  padding: 10px;
+}
+.Proyectos .cartProyectos .TextoProyectos p {
+  margin: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+}
+.Proyectos .cartProyectos .FotoProyecto img {
+  width: 179px;
+  margin: 50px;
+  padding-left: 6px;
+}
+.Proyectos .imgCartoon {
+  border-radius: 50%;
+}
+
+.Curriculum {
+  border: solid 1px;
+  margin-left: 300px;
+  border-radius: 10px;
+}
+
+/*=========================CONTACTOS FORMULARIO================================*/
+.Espaciosection {
+  height: 80vh;
+}
+
+#contenedor-formulario {
+  background: #fbfafa;
+  border-radius: 5px;
+}
+
+#titulo-formulario {
+  color: #3f3f3f;
+}
+
+/*=========================FOOTER================================*/
+footer {
+  background-color: #794363;
+  min-height: 100px;
+}
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+footer #iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}
+
+/*=========================animaciones================================*/
+.FotoProyecto:hover {
+  -webkit-transform: scale(120%);
+          transform: scale(120%);
+}
+
+.BotonConoceme:hover {
+  background-color: palevioletred;
+  -webkit-transform: scale(120%);
+          transform: scale(120%);
+}
+
+.BotonConoceme a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.Proyectos .cartProyectos:hover {
+  -webkit-transform: scale(110%);
+          transform: scale(110%);
+  -webkit-box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.085);
+          box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.085);
+}
+
+.Curriculum:hover {
+  background-color: rgba(111, 168, 111, 0.296);
+  -webkit-transform: scale(120%);
+          transform: scale(120%);
+}
+
+.avatarIndex:hover {
+  -webkit-transform: scale(110%);
+          transform: scale(110%);
+}
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+@media (max-width: 1200px) {
+  #intro, #equipo {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  #local {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 30px;
+  }
+
+  .wrapper-local {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+  }
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+@media (max-width: 768px) {
+  #intro, #equipo {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  #img-equipo {
+    max-height: 20rem !important;
+    width: 90%;
+  }
+
+  .wrapper-local {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  #local {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .mapa img {
+    width: 100%;
+    height: auto;
+  }
+
+  #bg-contactos {
+    top: -120px;
+  }
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+@media (max-width: 576px) {
+  #servicios-fila-2 {
+    width: 100% !important;
+  }
+
+  #servicios-fila-1 {
+    width: 100% !important;
+  }
+
+  .icono-wrap {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: center;
+  }
+
+  .bienvenida h1 {
+    color: #f3f3f3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .BotonConoceme {
+    padding: 10px;
+    border-radius: 10px;
+    color: #3f3f3f;
+  }
+
+  .BotonConoceme a {
+    text-decoration: none;
+    color: #3f3f3f;
+  }
+
+  .avatarIndex {
+    width: 200px;
+  }
+
+  .Proyectos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .Proyectos .cartProyectos {
+    background-color: aliceblue;
+    width: 100%;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  .Proyectos .cartProyectos .FotoProyecto img {
+    width: 150px;
+  }
+
+  .Proyectos .cartProyectos .TextoProyectos p {
+    font-size: 15px;
+  }
+
+  .Curriculum {
+    border: solid 1px;
+    width: 150px;
+    padding: 10px 0px 10px 10px;
+    margin-left: 0px;
+  }
+
+  .avatarIndex {
+    width: 200px;
+    margin-bottom: 50px;
+  }
+}
