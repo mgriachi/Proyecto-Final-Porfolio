@@ -3,16 +3,25 @@
 body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+  /*===================Pagina de bienvenida ==========================*/
+  /*===================MENU==========================*/
+  /*===================SLIDER DE IMAGENES==========================*/
+  /*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
+  /*===================SECCION NUESTRO EQUIPO MAPA==========================*/
+  /*===========================SECCION EQUIPO ==================================*/
+  /*===========================Conocimientos ==================================*/
+  /*=========================CONTACTOS BACKGROUND================================*/
 }
-
-/*===================Pagina de bienvenida ==========================*/
-.bienvenida {
+body .text-primary {
+  color: #c0699d !important;
+}
+body .bienvenida {
   background-image: url(../img/index.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-.bienvenida .posicion {
+body .bienvenida .posicion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,55 +40,47 @@ body {
           align-items: center;
   padding-top: 50px;
 }
-.bienvenida h1 {
+body .bienvenida h1 {
   color: #f3f3f3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: center;
 }
-.bienvenida .BotonConoceme {
+body .bienvenida .BotonConoceme {
   padding: 10px;
   border-radius: 10px;
 }
-.bienvenida .BotonConoceme a {
+body .bienvenida .BotonConoceme a {
   text-decoration: none;
   color: #3f3f3f;
 }
-.bienvenida .avatarIndex {
+body .bienvenida .avatarIndex {
   border-radius: 50%;
   margin-bottom: 50px;
 }
-
-/*===================MENU==========================*/
-.Micolor {
+body .Micolor {
   background-color: #794363 !important;
 }
-.Micolor a {
+body .Micolor a {
   text-decoration: none;
 }
-.Micolor a button {
+body .Micolor a button {
   font-size: 18px !important;
   font-weight: 600;
 }
-.Micolor #menu a,
-.Micolor #menu a {
+body .Micolor #menu a,
+body .Micolor #menu a {
   color: #3f3f3f;
 }
-
-/*===================SLIDER DE IMAGENES==========================*/
-.carousel-inner {
+body .carousel-inner {
   max-height: 39rem !important;
 }
-
-/*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
-#img-equipo {
+body #img-equipo {
   max-height: 30rem !important;
   width: 50%;
 }
-
-/*===================SECCION NUESTRO EQUIPO MAPA==========================*/
-#local {
+body #local {
   margin-top: 40px;
   background-color: #ffffff;
   display: -webkit-box;
@@ -90,75 +91,71 @@ body {
           justify-content: center;
   padding-bottom: 300px;
 }
-#local .mapa {
+body #local .mapa {
   margin: 20px;
   width: 100%;
   height: 500px;
 }
-#local .img-equipo {
+body #local .img-equipo {
   margin-bottom: 30px;
 }
-#local .wrapper-local {
+body #local .wrapper-local {
   width: 50%;
   margin-left: 100px;
   padding-top: 150px;
 }
-
-/*===========================SECCION EQUIPO ==================================*/
-#numeros-local {
+body #numeros-local {
   margin: 0 !important;
   padding: 0 !important;
 }
-#numeros-local div {
+body #numeros-local div {
   padding: 0 20px 0 0;
   text-align: left;
   height: 48px;
 }
-
-#numeros-local div {
+body #numeros-local div {
   padding: 0 20px 0 0;
   text-align: left;
   height: 48px;
 }
-#numeros-local div div:not(:last-child) {
+body #numeros-local div div:not(:last-child) {
   border-right: 2px solid #3f3f3f;
 }
-#numeros-local div div:not(:first-child) {
+body #numeros-local div div:not(:first-child) {
   padding-left: 20px;
 }
-#numeros-local div p {
+body #numeros-local div p {
   margin: 0;
 }
-
-/*===========================Conocimientos ==================================*/
-.Conocimientos {
+body .Conocimientos {
   margin: 30px;
 }
-.Conocimientos .tituloConocimientos {
+body .Conocimientos .tituloConocimientos {
   margin-bottom: 84px;
   border: 2px solid;
   width: 288px;
 }
-.Conocimientos .card {
+body .Conocimientos .card {
   border: 0px;
 }
-.Conocimientos .imgAdobe {
+body .Conocimientos .imgAdobe {
   padding-right: 60px;
 }
-.Conocimientos .Espacionbajo {
+body .Conocimientos .Espacionbajo {
   margin-bottom: 20px;
 }
-
-/*=========================CONTACTOS BACKGROUND================================*/
-#bg-contactos {
+body #bg-contactos {
   position: relative;
   top: -130px;
 }
-
-#seccion-contacto {
+body #seccion-contacto {
   background-color: #1b2a4e;
   min-height: 500px;
   position: relative;
+}
+body .btn-Micolor {
+  background-color: #794363 !important;
+  color: #ffffff;
 }
 
 /*=========================Proyectos================================*/
@@ -269,6 +266,11 @@ footer #iconos i {
 .avatarIndex:hover {
   -webkit-transform: scale(110%);
           transform: scale(110%);
+}
+
+.btn-Micolor:hover {
+  background-color: #c0699d !important;
+  color: white;
 }
 
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/

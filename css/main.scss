@@ -5,7 +5,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-}
+    .text-primary {
+        color:#c0699d!important;
+    }
+    
 
 /*===================Pagina de bienvenida ==========================*/
 
@@ -169,6 +172,13 @@ body {
     position:relative;
 }
 
+.btn-Micolor{
+    background-color:#794363!important;
+    color: #ffffff;
+}
+
+
+}
 
 /*=========================Proyectos================================*/
 .Proyectos {
@@ -281,6 +291,18 @@ footer {
 .avatarIndex:hover{
    transform: scale(110%);
 }
+
+.btn-Micolor:hover {
+    background-color: #c0699d !important;
+    color: white;
+
+}
+
+
+
+
+
+
 
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
