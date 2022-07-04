@@ -3,25 +3,19 @@
 body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  /*===================Pagina de bienvenida ==========================*/
-  /*===================MENU==========================*/
-  /*===================SLIDER DE IMAGENES==========================*/
-  /*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
-  /*===================SECCION NUESTRO EQUIPO MAPA==========================*/
-  /*===========================SECCION EQUIPO ==================================*/
-  /*===========================Conocimientos ==================================*/
-  /*=========================CONTACTOS BACKGROUND================================*/
 }
 body .text-primary {
   color: #c0699d !important;
 }
-body .bienvenida {
+
+/*===================Pagina de bienvenida ==========================*/
+.bienvenida {
   background-image: url(../img/index.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-body .bienvenida .posicion {
+.bienvenida .posicion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,47 +34,55 @@ body .bienvenida .posicion {
           align-items: center;
   padding-top: 50px;
 }
-body .bienvenida h1 {
+.bienvenida h1 {
   color: #f3f3f3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: center;
 }
-body .bienvenida .BotonConoceme {
+.bienvenida .BotonConoceme {
   padding: 10px;
   border-radius: 10px;
 }
-body .bienvenida .BotonConoceme a {
+.bienvenida .BotonConoceme a {
   text-decoration: none;
-  color: #3f3f3f;
+  color: #000000;
 }
-body .bienvenida .avatarIndex {
+.bienvenida .avatarIndex {
   border-radius: 50%;
   margin-bottom: 50px;
 }
-body .Micolor {
+
+/*===================MENU==========================*/
+.Micolor {
   background-color: #794363 !important;
 }
-body .Micolor a {
+.Micolor a {
   text-decoration: none;
 }
-body .Micolor a button {
+.Micolor a button {
   font-size: 18px !important;
   font-weight: 600;
 }
-body .Micolor #menu a,
-body .Micolor #menu a {
+.Micolor #menu a,
+.Micolor #menu a {
   color: #3f3f3f;
 }
-body .carousel-inner {
+
+/*===================SLIDER DE IMAGENES==========================*/
+.carousel-inner {
   max-height: 39rem !important;
 }
-body #img-equipo {
+
+/*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
+#img-equipo {
   max-height: 30rem !important;
   width: 50%;
 }
-body #local {
+
+/*===================SECCION NUESTRO EQUIPO MAPA==========================*/
+#local {
   margin-top: 40px;
   background-color: #ffffff;
   display: -webkit-box;
@@ -91,69 +93,78 @@ body #local {
           justify-content: center;
   padding-bottom: 300px;
 }
-body #local .mapa {
+#local .mapa {
   margin: 20px;
   width: 100%;
   height: 500px;
 }
-body #local .img-equipo {
+#local .img-equipo {
   margin-bottom: 30px;
 }
-body #local .wrapper-local {
+#local .wrapper-local {
   width: 50%;
   margin-left: 100px;
   padding-top: 150px;
 }
-body #numeros-local {
+
+/*===========================SECCION EQUIPO ==================================*/
+#numeros-local {
   margin: 0 !important;
   padding: 0 !important;
 }
-body #numeros-local div {
+#numeros-local div {
   padding: 0 20px 0 0;
   text-align: left;
   height: 48px;
 }
-body #numeros-local div {
+
+#numeros-local div {
   padding: 0 20px 0 0;
   text-align: left;
   height: 48px;
 }
-body #numeros-local div div:not(:last-child) {
+#numeros-local div div:not(:last-child) {
   border-right: 2px solid #3f3f3f;
 }
-body #numeros-local div div:not(:first-child) {
+#numeros-local div div:not(:first-child) {
   padding-left: 20px;
 }
-body #numeros-local div p {
+#numeros-local div p {
   margin: 0;
 }
-body .Conocimientos {
+
+/*===========================Conocimientos ==================================*/
+.Conocimientos {
   margin: 30px;
 }
-body .Conocimientos .tituloConocimientos {
+.Conocimientos .tituloConocimientos {
   margin-bottom: 84px;
   border: 2px solid;
   width: 288px;
 }
-body .Conocimientos .card {
+.Conocimientos .card {
   border: 0px;
 }
-body .Conocimientos .imgAdobe {
+.Conocimientos .imgAdobe {
   padding-right: 60px;
 }
-body .Conocimientos .Espacionbajo {
+.Conocimientos .Espacionbajo {
   margin-bottom: 20px;
 }
-body #bg-contactos {
+
+/*=========================CONTACTOS BACKGROUND================================*/
+#bg-contactos {
   position: relative;
   top: -130px;
 }
-body #seccion-contacto {
+
+#seccion-contacto {
   background-color: #1b2a4e;
   min-height: 500px;
   position: relative;
 }
-body .btn-Micolor {
+
+.enviar-Micolor {
   background-color: #794363 !important;
   color: #ffffff;
 }
@@ -239,14 +250,10 @@ footer #iconos i {
           transform: scale(120%);
 }
 
-.BotonConoceme:hover {
-  background-color: palevioletred;
+.bienvenida:hover .BotonConoceme:hover {
+  background-color: #c0699d;
   -webkit-transform: scale(120%);
           transform: scale(120%);
-}
-
-.BotonConoceme a:hover {
-  text-decoration: none;
   color: #ffffff;
 }
 
@@ -268,9 +275,9 @@ footer #iconos i {
           transform: scale(110%);
 }
 
-.btn-Micolor:hover {
+.enviar-Micolor:hover {
   background-color: #c0699d !important;
-  color: white;
+  color: #ffffff;
 }
 
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
